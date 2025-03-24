@@ -8,4 +8,4 @@ Ao aumentar `num_examples` na função `load_data_nmt`, observei que os tamanhos
 
 ### 9.5.7.2 - Tokenização para chinês e japonês  
 
-Não considero uma boa ideia, pois esses idiomas não usam espaços para separar palavras. Determinar os limites das palavras é complexo e propenso a erros. A tokenização em nível de caractere é uma alternativa melhor, pois cada caractere tem significado próprio e gera um vocabulário menor e mais consistente. Outra abordagem eficiente é a tokenização em subpalavras que captura padrões sem depender da segmentação explícita de palavras.
+Não considero uma boa ideia, pois esses idiomas não usam espaços para separar palavras. Determinar os limites das palavras é complexo e propenso a erros. A tokenização em nível de caractere é uma alternativa melhor, pois cada caractere tem significado próprio e gera um vocabulário menor e mais consistente. Outra abordagem eficiente é a tokenização em subpalavras que captura padrões sem depender da segmentação explícita de palavras. O próprio texto da seção 9.5.7 sugere a tokenização em subpalavras como solução para desafios na modelagem de idiomas.
